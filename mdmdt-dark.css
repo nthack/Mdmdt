@@ -17,7 +17,7 @@
   --title-color: var(--text-color);
   --border-color: var(--text-grey);
 
-  --color-1: #3e69d7;
+  --color-1: #3ed1fa;
   --color-1-0-a: rgba(62, 105, 215, 0.3);
   --color-1-0-b: rgba(62, 105, 215, 0.12);
 
@@ -73,7 +73,7 @@ html {
 body {
   margin: 0;
   padding: 0;
-  font-size: 16px;
+  font-size: 24px;
   line-height: 1.6;
   letter-spacing: 0.6px;
   font-family: "PingFang SC", "Microsoft YaHei UI", "Microsoft YaHei", Arial, "Helvetica Neue", Helvetica, sans-serif;
@@ -130,14 +130,14 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 2px;
 }
 h1 {
-  font-size: 32px;
+  font-size: 36px;
   border-bottom: 1px solid var(--border-color);
 }
-h2 { font-size: 28px; }
-h3 { font-size: 24px; }
-h4 { font-size: 20px; }
-h5 { font-size: 18px; }
-h6 { font-size: 16px; }
+h2 { font-size: 32px; }
+h3 { font-size: 28px; }
+h4 { font-size: 24px; }
+h5 { font-size: 22px; }
+h6 { font-size: 20px; }
 
 #write > h1 + *,
 #write > h2 + *,
@@ -270,7 +270,7 @@ a {
   font-weight: 500;
   text-decoration: none;
   color: var(--color-1);
-  font-size: 16px;
+  font-size: 24px;
   text-underline-offset: 4px;
 }
 a:hover,
@@ -494,23 +494,23 @@ code {
   background: var(--color-1-0-a);
   padding: 3px 5px;
   color: var(--text-code);
-  font-size: 14px;
+  font-size: 18px;
   box-decoration-break: clone;
   -webkit-box-decoration-break: clone;
   box-decoration-break: clone;
   -webkit-box-decoration-break: clone;
 }
 h1 code {
-  font-size: 26px;
+  font-size: 32px;
 }
 h2 code {
-  font-size: 22px;
+  font-size: 28px;
 }
 h3 code {
-  font-size: 18px;
+  font-size: 24px;
 }
 h4 code {
-  font-size: 16px;
+  font-size: 22px;
 }
 .outline-content .outline-item code {
   font-size: 11px;
@@ -1530,7 +1530,7 @@ li > .outline-item:hover::before,
 */
 .md-toc {
   margin: 16px 0 0 0;
-  font-size: 14px;
+  font-size: 18px;
 }
 .md-toc-content {
   position: relative;
