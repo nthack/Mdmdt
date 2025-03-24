@@ -8,17 +8,17 @@
  * ------------------------------------------------------------------------
 */
 :root {
-  --bg-color: #1b1b1f;
+  --bg-color: #181818;
   --bg-color2: rgb(40, 42, 50);
 
   --text-color: #d0d0d0;
   --text-grey: #464b50;
-  --text-code: #bbc7fd;
+  --text-code: #fd8b52;
   --title-color: var(--text-color);
   --border-color: var(--text-grey);
 
-  --color-1: #3ed1fa;
-  --color-1-0-a: rgba(62, 105, 215, 0.3);
+  --color-1: #3ed1c8;
+  --color-1-0-a: #464b50;
   --color-1-0-b: rgba(62, 105, 215, 0.12);
 
   --color-2: #f59102;
@@ -38,7 +38,7 @@
   --color-5-0-a: rgba(227, 15, 46, 0.3);
   --color-5-0-b: rgba(227, 15, 46, 0.12);
 
-  --md-char-color: #667c89ff;
+  --md-char-color: #fffed6;
   --meta-content-color: var(--md-char-color);
   --primary-color: var(--color-1);
   --primary-btn-border-color: var(--bg-color2);
@@ -63,7 +63,7 @@
 html {
   height: 100vh;
   background-color: var(--bg-color);
-  font-size: 16px !important;
+  font-size: 24px !important;
   color: var(--text-color);
   -webkit-font-smoothing: antialiased;
   scroll-behavior: smooth;
@@ -133,11 +133,14 @@ h1 {
   font-size: 36px;
   border-bottom: 1px solid var(--border-color);
 }
-h2 { font-size: 32px; }
+h2 { 
+  font-size: 32px; 
+  border-bottom: 1px solid var(--border-color);
+}
 h3 { font-size: 28px; }
-h4 { font-size: 24px; }
-h5 { font-size: 22px; }
-h6 { font-size: 20px; }
+h4 { font-size: 26px; }
+h5 { font-size: 24px; }
+h6 { font-size: 22px; }
 
 #write > h1 + *,
 #write > h2 + *,
@@ -231,8 +234,8 @@ p:has(span.md-image) {
 }
 
 strong {
-  font-weight: 800;
-  color: #cfdfff;
+  font-weight: 880;
+  color: #f1f1f1;
 }
 
 u {
@@ -494,23 +497,23 @@ code {
   background: var(--color-1-0-a);
   padding: 3px 5px;
   color: var(--text-code);
-  font-size: 18px;
+  font-size: 24px;
   box-decoration-break: clone;
   -webkit-box-decoration-break: clone;
   box-decoration-break: clone;
   -webkit-box-decoration-break: clone;
 }
 h1 code {
-  font-size: 32px;
+  font-size: 36px;
 }
 h2 code {
-  font-size: 28px;
+  font-size: 32px;
 }
 h3 code {
-  font-size: 24px;
+  font-size: 28px;
 }
 h4 code {
-  font-size: 22px;
+  font-size: 24px;
 }
 .outline-content .outline-item code {
   font-size: 11px;
@@ -836,7 +839,7 @@ html input[type="text"]:focus {
   outline: none !important;
 }
 input::placeholder {
-  font-size: 14px;
+  font-size: 24px;
   color: var(--text-grey) !important;
 }
 
